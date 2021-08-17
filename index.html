@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <link type="text/css" rel="stylesheet" href="jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="memory.css">
+</head>
+
+<body>
+    <header>
+        <h1>Memory Game</h1>
+        <p id="new_game"><a href="index.html">New Game</a></p>
+        <p id="player">&nbsp;</p>
+        <p id="high_score">&nbsp;</p>
+        <p id="correct">&nbsp;</p>
+        <div class="clear"></div>
+    </header>
+
+
+
+    <main>
+        <div id="mainTab">
+            <ul class="tabs">
+                <li id="play" data-tab-target="#tabs-1" class="active tab">play game</li>
+                <li data-tab-target="#tabs-2" class="tab">view rules</li>
+                <li data-tab-target="#tabs-3" class="tab">settings</li>
+            </ul>
+
+            <!-- card game -->
+            <div class="tab-content">
+                <div id="tabs-1" data-tab-content class="active">
+                    <div id="cards">
+                        <div class="row row1">
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                        </div>
+                        <div class="row row2">
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                        </div>
+                        <div class="row row3">
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                        </div>
+                        <div class="row row4">
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                        </div>
+                        <div class="row row5">
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                        </div>
+                        <div class="row row6">
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                            <div class="card card-hidden"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- view rules  -->
+                <div id="tabs-2" data-tab-content>
+                    <fieldset>
+                        <legend>How to play the Memory game</legend>
+                        <ul>
+                            <li>The cards are placed face down. Each card has a matching card.</li>
+                            <li>For each turn, the player select two cards.</li>
+                            <li>If the cards match, they are removed from the board.</li>
+                            <li>If the cards don't match, they are turned face down again.</li>
+                            <li>At the end of the game, the player receives a score based on the number
+                                of correct selections that were made.</li>
+                        </ul>
+                    </fieldset>
+                </div>
+
+
+                <!-- settings -->
+                <div id="tabs-3" data-tab-content>
+                    <label for='player_name'></label>
+                    <input type='text' placeholder="Enter name" id='player_name'><br>
+                    <h3>How many Cards?</h3>
+                    <label for='num_cards'></label>
+                    <select id='num_cards'>
+                        <option class="levels" data-value="48">48</option>
+                        <option class="levels" data-value="40">40</option>
+                        <option class="levels" data-value="32">32</option>
+                        <option class="levels" data-value="24">24</option>
+                        <option class="levels" data-value="16">16</option>
+                        <option class="levels" data-value="8">8</option>
+                    </select><br>
+                    <input type='button' id='save_settings' value='Save Settings'>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="jquery-ui.min.js"></script>
+</body>
+
+</html>

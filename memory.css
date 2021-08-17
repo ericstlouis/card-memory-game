@@ -1,0 +1,298 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 2em 1em;
+    background-color: #3d3a40;
+    background-color: #3d3a40;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%2361666f' fill-opacity='0.84'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: .5em;
+}
+
+label {
+    float: left;
+    width: 8em;
+}
+
+input,
+select {
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+    width: 2em;
+}
+
+header p {
+    margin: 0 2em 1em 0;
+}
+
+#new_game,
+#player,
+#high_score,
+#correct {
+    float: left;
+}
+
+#cards img {
+    height: 100px;
+    width: 80px;
+
+}
+
+#tabs-2{
+    background-color: white;
+}
+
+#tabs-3 {
+    
+}
+input {
+    padding: 5px ;
+    width: 300px;
+}
+.clear {
+    clear: both;
+}
+
+.card-hidden {
+    background-image: url(images/back.png) !important;
+    height: 100px;
+    width: 80px;
+}
+
+.card {
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    margin: 2px 10px ;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.done {
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.hideRow {
+    display: none;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+
+#tabs-1 {
+    width: 100%;
+}
+
+/* tabs */
+.mainTab {
+    width: 50%;
+}
+
+.tabs {
+    padding: 20px;
+}
+
+a {
+    text-transform: none;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+#player {
+    font-size: 2rem;
+    color: white;
+}
+
+#high_score {
+    font-size: 2rem;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+li {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+
+
+
+/* cards images classes */
+
+.card1 {
+    background-image: url(images/card_1.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card2 {
+    background-image: url(images/card_2.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card3 {
+    background-image: url(images/card_3.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card4 {
+    background-image: url(images/card_4.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card5 {
+    background-image: url(images/card_5.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card6 {
+    background-image: url(images/card_6.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card7 {
+    background-image: url(images/card_7.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card8 {
+    background-image: url(images/card_8.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card9 {
+    background-image: url(images/card_9.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card10 {
+    background-image: url(images/card_10.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card11 {
+    background-image: url(images/card_11.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card12 {
+    background-image: url(images/card_12.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card13 {
+    background-image: url(images/card_13.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card14 {
+    background-image: url(images/card_14.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card15 {
+    background-image: url(images/card_15.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card16 {
+    background-image: url(images/card_16.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card17 {
+    background-image: url(images/card_17.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card18 {
+    background-image: url(images/card_18.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card19 {
+    background-image: url(images/card_19.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card20 {
+    background-image: url(images/card_20.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card21 {
+    background-image: url(images/card_21.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card22 {
+    background-image: url(images/card_22.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card23 {
+    background-image: url(images/card_23.png);
+    height: 100px;
+    width: 80px;
+}
+
+.card24 {
+    background-image: url(images/card_24.png);
+    height: 100px;
+    width: 80px;
+}
